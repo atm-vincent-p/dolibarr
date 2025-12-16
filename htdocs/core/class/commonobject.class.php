@@ -10465,6 +10465,7 @@ abstract class CommonObject
 		$now = dol_now();
 
 		$fieldvalues = $this->setSaveQuery();
+		var_dump($fieldvalues);
 
 		// Note: Here, $fieldvalues contains same keys (or less) that are inside ->fields
 
